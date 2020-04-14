@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("abc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-shadow: 0 0 8px black;
+    color: #befafa;
+    font-size: 30px;
+}
+.cantainer{
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    height: 400px;
+    border: 5px solid darkturquoise;
+    margin: 50px auto;
+    border-radius: 30px;
+    background-color: white;
+}
+.cantainerBlock{
+    border: 1px solid darkturquoise;
+    margin: 50px 30px;
+    height: 200px;
+    border-radius: 20px;
+    background: azure;
+    position: relative;
+}
+.cantainerBlock button{
+    display: inline-block;
+    border: 1px solid;
+    position: absolute;
+    width: 100px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #8bf1f8;
+    outline: none;
+}
+.cantainerBlock button:hover{
+    transform: scale(1.02, 1.02);
+    box-shadow: 0 0  15px black;
+}
+#one{
+    top: 20px;
+    left: 20px;
+}
+#two{
+    bottom: 20px;
+    left: 20px;
+}
+#three{
+    top: 20px;
+    right: 20px;
+}
+#four{
+    bottom: 20px;
+    right: 20px;
+}
+h2{
+    font-size: 40px;
+    position: absolute;
+    line-height: 130px;
+    padding-left: 42%;
+}
+.divmarquee{
+    position: relative;
+    bottom: 14px;
+}
+#time{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    position: absolute;
+    border-radius: 50%;
+    line-height: 50px;
+    z-index: 2;
+    background-color: #8bf1f8;
+    left: 48%;
+    font-size: 23px;
+    border-color: darkturquoise;
+}
